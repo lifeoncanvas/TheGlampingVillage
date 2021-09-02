@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter, Link } from "react-router-dom";
 import Hamburger from "./Hamburger";
+import { RiMenu4Line,RiCloseFill} from "react-icons/ri";
 import './styles.scss';
 
 const Header = ({ history }) => {
@@ -8,7 +9,7 @@ const Header = ({ history }) => {
   const [state, setState] = useState({
     initial: false,
     clicked: null,
-    menuName: "Menu"
+    menuName:  <RiMenu4Line/>
   });
   // State of our button
   const [disabled, setDisabled] = useState(false);
@@ -17,7 +18,7 @@ const Header = ({ history }) => {
   useEffect(() => {
     //Listening for page changes.
     history.listen(() => {
-      setState({ clicked: false, menuName: "Menu" });
+      setState({ clicked: false, menuName: <RiMenu4Line/> });
     });
   }, [history]);
 
@@ -28,17 +29,17 @@ const Header = ({ history }) => {
       setState({
         initial: null,
         clicked: true,
-        menuName: "Close"
+        menuName: <RiCloseFill/>
       });
     } else if (state.clicked === true) {
       setState({
         clicked: !state.clicked,
-        menuName: "Menu"
+        menuName: <RiMenu4Line/>
       });
     } else if (state.clicked === false) {
       setState({
         clicked: !state.clicked,
-        menuName: "Close"
+        menuName:  <RiCloseFill/>
       });
     }
   };

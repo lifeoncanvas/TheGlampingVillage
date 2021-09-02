@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:wght@100;300&display=swap');
 
-$red: #494745;
-$black: #CC9848;
+$red: #6eafc9;
+$black:  #494745;
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+
   
 }
 
@@ -26,7 +25,7 @@ body {
       p {
         font-size: 0.75rem;
         letter-spacing: 0.3rem;
-        // text-transform: uppercase;
+         text-transform: uppercase;
         font-weight: 200;
       }
       h5 {
@@ -40,7 +39,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 0.1px;
   .inner-header {
     position: relative;
     z-index: 10;
@@ -49,7 +48,7 @@ header {
     justify-content: space-between;
     align-items: center;
     .logo a {
-      font-family: 'Della Respira', serif;
+      
       font-weight: 700;
       font-size: 1rem;
       text-decoration: none;
@@ -62,7 +61,7 @@ header {
         background: none;
         outline: none;
         cursor: pointer;
-        font-size: 0.8rem;
+        font-size: 1.68rem;
         mix-blend-mode: difference;
       }
     }
@@ -111,20 +110,21 @@ header {
         position: relative;
         .menu-links {
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           position: relative;
-          top: 200px;
+          top: 100px;
           nav {
             display: block;
+            background-color: transparent;
             ul {
               margin: 0;
               padding: 0;
               li {
-                font-family: 'Della Respira', serif;
+                //font-family: 'Della Respira', serif;
                 list-style: none;
-                font-size: 6rem;
-                font-weight: 400;
+                font-size: 4rem;
+                font-weight: 200;
                 cursor: pointer;
                 height: 135px;
                 overflow: hidden;
@@ -132,20 +132,22 @@ header {
                 width: 700px;
                 a {
                   position: absolute;
-                  color: #fff;
+                  color:  $black;
                   text-decoration: none;
+                  transition: 0.1s ease-in-out;
                   &:hover {
-                    color: $black;
+                    color: #fff;
+                    text-transform: uppercase;
                   }
                 }
               }
             }
           }
           .info {
-            color: #fff;
+            color: $black;
             width: 300px;
             h3 {
-              font-family: 'Della Respira', serif;
+             // font-family: 'Della Respira', serif;
               font-size: 1.2rem;
               margin: 8px auto;
             }
