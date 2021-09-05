@@ -21,15 +21,14 @@ const About = () => {
 	return (
     <div className="container">
 		
-      <div className=" about-section " id='about-section'>
+      <div id='about' className=" about-section " >
         {/* <div className='section-header'> 
         <h1> about us </h1>
 				</div> */}
         <p>
           {" "}
           He has been heir apparent as well as Duke of Cornwall and Duke of
-          Rothesay since 1952, and is both the oldest and the longest-serving
-          heir apparent in British history.
+          Rothesay since 1952, and is he same time. Fundamentally, it reflects a combination of intent and the nature of activities involved.
         </p>
       </div>
       <div ref={el => imageContainer = el}  className="image">

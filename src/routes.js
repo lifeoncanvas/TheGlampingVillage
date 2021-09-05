@@ -18,9 +18,9 @@ const Routes = () => {
 			
 
 		   	{/* <Route path="/contact" component={Contact} />
-			<Route path="/services" component={Services} />
+			<Route path="/services" component={Services} />*/}
 			
-			<Route path="/about" component={About} /> */}
+			<Route path="/about" component={About} /> 
 			<Route path="/" component={Homepage} />
 			
 		</Switch>

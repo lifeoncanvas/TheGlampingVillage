@@ -16,11 +16,13 @@ const Hero = () => {
 				{/* <p>Whether you are staying at home with family or spending time with friends this upcoming holiday</p>
 				 */}
 					
-					<Link className='button'>  <MdPlayCircleFilled /> </Link>
+					<Link className='button'  >  <MdPlayCircleFilled /> </Link>
 				
 				
 			</div>
 			</div>
+
+			
 		</div>
 	)
 }

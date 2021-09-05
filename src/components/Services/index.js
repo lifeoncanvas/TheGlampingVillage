@@ -47,17 +47,21 @@ function Services() {
 
 
   return (
-    <div className="hero" ref={el => app = el}>
+    <div className="hero" >
       <div className="container">
         <div className="hero-inner">
           <div className="hero-content">
-            <div className="hero-content-inner" ref={el => content = el}>
+            <div className="hero-content-inner" >
               <h1>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">Relieving the burden</div>
+                  <div className="hero-content-line-inner">
+                    Relieving the burden
+                  </div>
                 </div>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">of disease caused</div>  
+                  <div className="hero-content-line-inner">
+                    of disease caused
+                  </div>
                 </div>
                 <div className="hero-content-line">
                   <div className="hero-content-line-inner">by behaviors.</div>
@@ -69,7 +73,8 @@ function Services() {
                 digital therapeutics.
               </p>
               <div className="btn-row">
-                <button className="explore-button">Explore
+                <button className="explore-button">
+                  Explore
                   {/* <div className="arrow-icon">
                     <img src={arrow} alt="row"/>
                   </div> */}
@@ -78,7 +83,7 @@ function Services() {
             </div>
           </div>
           <div className="hero-images">
-            <div ref={el => images = el}  className="hero-images-inner">
+            <div  className="hero-images-inner">
               <div className="hero-image girl">
                 <img src={imgGirl} alt="girl" />
               </div>
@@ -88,6 +93,8 @@ function Services() {
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react'
-import { RiInstagramFill } from 'react-icons';
+import { } from 'react-icons';
 import { Link } from 'react-router-dom';
-import { RiInstagramLine ,RiWhatsappLine,RiMapPin2Line} from "react-icons/ri";
+import { RiInstagramFill ,RiWhatsappFill,RiMapPin2Fill} from "react-icons/ri";
 
 import './styles.scss'
 
@@ -21,9 +21,9 @@ const Contact = () => {
 			
 			</form>
 			<div className='social-links'>
-			<Link className='social-link' ><RiInstagramLine/></Link>
-			<Link className='social-link' ><RiWhatsappLine/></Link>
-			<Link className='social-link' ><RiMapPin2Line/></Link>
+			<Link className='social-link' to='https://www.instagram.com/p/CKHGcIFBY72/' ><RiInstagramFill/></Link>
+			<Link className='social-link' ><RiWhatsappFill/></Link>
+			<Link className='social-link' ><RiMapPin2Fill/></Link>
 			</div>
 			</div>
 			</div>

@@ -20,20 +20,23 @@
 .about-section{
 	
 	p{
-		width: 600px;
-		margin-top: 7rem;
+		width: 800px;
+		height: 50vh;
+		padding: 80px 0;
+		
 		font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
 	  font-weight: 400;
 	  font-size: 32px;
 		
+		
 		margin-left: auto;
 		margin-right: auto;
 	
-		line-height: 1.2;
+		line-height: 1.5;
 		text-align: center;
-		color:#494745;
+		color:#323232;
 
 	}
 }
