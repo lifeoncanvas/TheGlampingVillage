@@ -2,9 +2,9 @@ import React from 'react'
 import video from './videoPlayer'
 import ReactPlayer from 'react-player/youtube'
 
-const videoPlayer = () => {
-	return (
-		<div>
+const VideoPlayer = (showModal,setShowModal) => {
+	return <>{showModal ? <div>Modal</div> : null }</>;
+		{/* <div>
 			<div className='video-player'>
 			<ReactPlayer
           className='react-player'
@@ -16,8 +16,8 @@ const videoPlayer = () => {
         />
 				
 			</div>
-		</div>
-	)
+		</div> */}
+	
 }
 
-export default videoPlayer
+export default VideoPlayer
