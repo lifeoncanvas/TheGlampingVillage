@@ -7,9 +7,9 @@ import './styles.scss'
 
 const Contact = () => {
 	return (
-		<div className='container'>
-			<div className=' contact'>
-				
+		
+			<div id='contact' className=' contact'>
+			<div  className='container'>
 			<div className='contact-header'>
 				<h1>Get in touch with us</h1>
 				<p>Charles, Prince of Wales, is the heir apparent to the British throne as the eldest son of Queen Elizabeth II. He has been heir apparent as well as Duke of Cornwall and Duke of Rothesay since 1952, and is both the oldest and the longest-serving heir apparent in British history</p>

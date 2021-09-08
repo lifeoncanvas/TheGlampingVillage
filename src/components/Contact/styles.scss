@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700i&display=swap");
 
 $red: #6eafc9;
-$black:  #494745;
+$black:  #fff;
 
 
 html,
@@ -17,9 +17,10 @@ body {
 
 
 .contact{
+	border-radius: 20px 20px 0px 0px;
 	width:100wh;
 	height: 100vh;
-	
+	background-color: #6eafc9;
   position: relative;
   
 
@@ -41,10 +42,12 @@ body {
 	h1{
 		font-weight: 500;
 		font-size: 3rem;
-		color:$black;
+		color:rgb(236, 236, 236);
+		text-transform: uppercase;
 	}
 	p{
 		margin-bottom: 50px;
+		color:#fff;
 	}
 
   }
@@ -82,7 +85,7 @@ form {
 	box-sizing: border-box;
  	  padding: 0.75rem 2rem;
 	  
-	  background-color: #bdbdbd8a;
+	  background-color: $black;
 	/* And hide the input's outline, so the form looks like the outline */
 	border:none;
   }
@@ -99,7 +102,7 @@ form {
 	padding-right: 1rem;
 	border: none;
 	border-radius:  0px 8px 8px 0px;
-	background:$red;
+	background:#494745;
 	color:white;
 	
   }
@@ -112,5 +115,6 @@ form {
 	color:$black;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	
 	font-size: 30px;
 }

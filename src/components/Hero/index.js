@@ -1,23 +1,26 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './styles.scss';
 import t1 from '../../Images/t1.jpg';
 import { MdPlayCircleFilled } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 
-const Hero = () => {
+const Hero = ({offsetY}) => {
+
+	
+	
 	return (
 		
-		<div className='bg-image' >
+		<div className='bg-image'  >
 			 
 			<div className='overlay'>
-			<div className='info'>
-				<h1>Make The Most Of It</h1>
+			<div className='info' style={{transform:`translateY(${offsetY * 0.3}px)`}}  >
+				<h1 >Make The Most Of It</h1>
 				{/* <p>Whether you are staying at home with family or spending time with friends this upcoming holiday</p>
 				 */}
 					
 					<Link className='button'  >  <MdPlayCircleFilled /> </Link>
-				
+				 
 				
 			</div>
 			</div>

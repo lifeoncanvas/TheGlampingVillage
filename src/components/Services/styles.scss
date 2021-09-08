@@ -12,7 +12,7 @@ html {
 
 .hero {
 	
-  visibility: hidden;
+  
   height: 100vh;
   
 	.container {
@@ -39,7 +39,7 @@ html {
             .hero-content-line {
               margin: 0;
               height: 44px;
-              overflow: hidden;
+             
             //   .hero-content-line-inner {
             //   }
             }
@@ -82,7 +82,8 @@ html {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background: #3822CD;
+                font-size: 30px;
+                background: #6eafc9;
                 height: 48px;
                 width: 48px;
                 border-radius: 100px;
@@ -102,7 +103,7 @@ html {
         .hero-images-inner {
           .hero-image {
             position: absolute;
-            overflow: hidden;
+            
             &.girl {
 				bottom: 24px;
 				left: 0px;

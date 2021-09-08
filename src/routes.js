@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import About from './components/About';
@@ -6,14 +6,24 @@ import Contact from './components/Contact';
 
 import Homepage from '../src/pages/homepage'
 import Hero from './components/Hero';
-import Header from './components/Navbar/Header';
+
 
 import Services from './components/Services';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 const Routes = () => {
+
+	const[isOpen,setIsOpen] = useState(false)
+
+	const toggle = () => {
+		setIsOpen(!isOpen)
+	}
+
 	return (
 		<BrowserRouter>
-			<Header/>
+			<Sidebar isOpen={isOpen} toggle={toggle}/>
+			<Navbar toggle={toggle}/>
 		<Switch>
 			
 
@@ -30,4 +40,3 @@ const Routes = () => {
 }
 
 export default Routes;
-

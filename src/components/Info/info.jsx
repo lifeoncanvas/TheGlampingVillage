@@ -1,4 +1,6 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 import {
   InfoContainer,
@@ -16,12 +18,16 @@ import {
 
 const Info = ({lightBg,id,imgStart,topLine,lightText,
 	headline,darkText,description,img,alt}) => {
+
+		useEffect(() => {
+			Aos.init({duration:1000});
+		  },[]);
 	return (
 		<div>
 			<InfoContainer lighBg = {lightBg} id={id} >
 				<InfoWrapper>
 					<InfoRow imgStart={imgStart}>
-						<Column1>
+						<Column1 data-aos='fade-right'>
 						<TextWrapper>
 							<TopLine>{topLine}</TopLine>
 							<Heading lightText={lightText}>{headline}</Heading>
@@ -29,7 +35,7 @@ const Info = ({lightBg,id,imgStart,topLine,lightText,
 							
 						</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 data-aos='zoom-in' data-aos-delay='200'>
 						<ImgWrap>
 						<Img src={img} alt={alt}/>
 						</ImgWrap>
