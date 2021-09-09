@@ -1,5 +1,7 @@
 import React, {useEffect, useRef} from "react";
 import "./styles.scss";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 import { RiArrowRightLine} from "react-icons/ri";
 
@@ -9,12 +11,16 @@ import imgBoy from "./images/img2.jpg";
 
 function Services() {
  
+  useEffect(() => {
+    Aos.init({duration:1000});
+    },[]);
+
   return (
     <div id='services' className="hero" >
       <div className="container">
         <div className="hero-inner">
           <div className="hero-content">
-            <div className="hero-content-inner" >
+            <div className="hero-content-inner" data-aos='fade-up'>
               <h1>
                 <div className="hero-content-line">
                   <div className="hero-content-line-inner">Relieving the burden</div>
@@ -40,7 +46,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="hero-images">
+          <div className="hero-images" data-aos='fade-right' data-aos-delay='100'>
             <div   className="hero-images-inner">
               <div className="hero-image girl">
                 <img src={imgGirl} alt="girl" />

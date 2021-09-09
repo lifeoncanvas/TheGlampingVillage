@@ -27,7 +27,7 @@ const Info = ({lightBg,id,imgStart,topLine,lightText,
 			<InfoContainer lighBg = {lightBg} id={id} >
 				<InfoWrapper>
 					<InfoRow imgStart={imgStart}>
-						<Column1 data-aos='fade-right'>
+						<Column1 data-aos='fade-up'>
 						<TextWrapper>
 							<TopLine>{topLine}</TopLine>
 							<Heading lightText={lightText}>{headline}</Heading>
@@ -35,7 +35,7 @@ const Info = ({lightBg,id,imgStart,topLine,lightText,
 							
 						</TextWrapper>
 						</Column1>
-						<Column2 data-aos='zoom-in' data-aos-delay='200'>
+						<Column2 data-aos='fade-right' data-aos-delay='100'>
 						<ImgWrap>
 						<Img src={img} alt={alt}/>
 						</ImgWrap>

@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Gallary from '../components/Gallery/gallary';
 
 
 import Hero from '../components/Hero';
@@ -38,7 +39,13 @@ const Homepage = () => {
 			
 			<Hero offsetY={offsetY}/>
 			<About />
-			{/* <Services offsetY={offsetY} /> */}
+			
+			
+			<Gallary />
+			<About />
+			<Services  />
+			
+			
 			<Info {...ServiceObjOne} />
 			
 			
