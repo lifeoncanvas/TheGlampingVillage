@@ -35,7 +35,7 @@ const Info = ({lightBg,id,imgStart,topLine,lightText,
 							
 						</TextWrapper>
 						</Column1>
-						<Column2 data-aos='fade-right' data-aos-delay='100'>
+						<Column2 data-aos='fade-right' data-aos-delay='50'>
 						<ImgWrap>
 						<Img src={img} alt={alt}/>
 						</ImgWrap>

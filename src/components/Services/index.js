@@ -5,8 +5,8 @@ import "aos/dist/aos.css"
 
 import { RiArrowRightLine} from "react-icons/ri";
 
-import imgGirl from "./images/img1.jpg";
-import imgBoy from "./images/img2.jpg";
+import imgGirl from "./images/food3.jpg";
+import imgBoy from "./images/food4.jpg";
 //import arrow from './images/arrow-right.svg'
 
 function Services() {
@@ -37,13 +37,13 @@ function Services() {
                 lives and reduce healthcare utilization through the use of
                 digital therapeutics.
               </p>
-              <div className="btn-row">
+              {/* <div className="btn-row">
                 <button className="explore-button">Explore
                   <div className="arrow-icon">
                     <RiArrowRightLine/>
                   </div>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="hero-images" data-aos='fade-right' data-aos-delay='100'>

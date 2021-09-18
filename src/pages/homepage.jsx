@@ -38,7 +38,7 @@ const Homepage = () => {
 		<div>
 			
 			<Hero offsetY={offsetY}/>
-			<About />
+			 <About />
 			
 			
 			<Gallary />

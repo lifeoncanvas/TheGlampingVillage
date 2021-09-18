@@ -20,15 +20,15 @@ body {
 	border-radius: 20px 20px 0px 0px;
 	width:100wh;
 	height: 100vh;
-	background-color: #494745;
+	//background-color: #494745;
   position: relative;
   
 
 }
-.container {
-  width: 1280px;
-  min-width: 1280px;
-  margin: 0 auto;
+// .container {
+//   width: 1280px;
+//   min-width: 1280px;
+//   margin: 0 auto;
   
   .contact-header{
 	  text-align: center;
@@ -42,12 +42,12 @@ body {
 	h1{
 		font-weight: 500;
 		font-size: 3rem;
-		color:#6eafc9;
+		color:#494745;
 		text-transform: uppercase;
 	}
 	p{
 		margin-bottom: 50px;
-		color:#fff;
+		color:#494745;
 	}
 
   }
@@ -84,8 +84,8 @@ form {
 	border-radius:  8px 0px 0px 8px;
 	box-sizing: border-box;
  	  padding: 0.75rem 2rem;
-	  
-	  background-color: $black;
+	
+	  background-color: rgba(185, 180, 180, 0.616);
 	/* And hide the input's outline, so the form looks like the outline */
 	border:none;
   }
@@ -95,26 +95,28 @@ form {
 	outline: none;
   }
   
-  button {
+  .submitButton {
 	/* Just a little styling to make it pretty */
 	outline: none;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	border: none;
 	border-radius:  0px 8px 8px 0px;
-	background:#6eafc9;
+	background:#494745;
 	color:white;
 	
   }
 
-}
+
 
 
 .social-link{
-	
-	color:$black;
+	outline: none;
+	color:#494745;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	
+	border: none;
+	background-color: transparent;
 	font-size: 30px;
+	cursor: pointer;
 }

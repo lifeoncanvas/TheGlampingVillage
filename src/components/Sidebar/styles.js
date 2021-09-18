@@ -8,10 +8,10 @@ export const SidebarContainer = styled.aside`
 	z-index:999;
 	width:100%;
 	height:100%;
-	background:#6eafc9;
+	background: rgba(59, 59, 59, 0.90);
 	display:grid;
 	align-items: center;
-	top:0;
+	top:20vh;
 	left:0;
 	transition:0.3s ease-in-out;
 	 opacity:${({isOpen}) => (isOpen ? '100%' : '0')};
@@ -21,11 +21,11 @@ export const SidebarContainer = styled.aside`
 
 
 export const CloseIcon = styled(FaTimes)`
-	color:#494745;
+	color:#fff;
 
 `;
 
-export const Icon = styled.div`
+export const Icon = styled.span`
 	position:absolute;
 	top:1.2rem;
 	right:1.5rem;
@@ -33,11 +33,23 @@ export const Icon = styled.div`
 	font-size: 2rem;
 	cursor: pointer;
 	outline:none;
+
+	@media screen and (max-width:760px){
+		font-size: 1.5rem;
+		top:1.48rem;
+		right:1.8rem;
+	}
 `;
 
 export const SidebarWrapper = styled.div`
+top:20vh;
+height:80vh;
 		color:#494745;
+		display:flex;
+	align-items: center;
+	justify-content: center;
 ;
+
 
 `;
 
@@ -45,31 +57,40 @@ export const SidebarMenu = styled.ul`
 
 	display: grid;
 	grid-template-columns:1fr;
-	grid-template-rows: repeat(6,100px);
+	grid-template-rows: repeat(6,120px);
 	text-align:center;
-	margin-top:7rem;
-	@media screen and (max-width:480px){
+	margin-top:20rem;
+	//padding-top:40 rem;
+	padding-right:3rem ;
+	@media screen and (max-width:760px){
 		
-		grid-template-rows: repeat(6,60px);
+		grid-template-rows: repeat(6,90px);
 	}
 `;
 
 export const SidebarLink = styled(LinkS)`
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 2rem;
+
+	font-size: 3rem;
 	text-transform: uppercase;
 	list-style:none;
+	
+	font-weight:200;
 	transition:0.2s ease-in-out;
 	text-decoration:none;
-	color:#494745;
+	color:#fff;
 	cursor: pointer;
 
 	&:hover {
 		color:#fff;
+		//font-style:italic;
+		font-weight:400;
 		transform: scale(1.25);
 		transition:0.2s ease-in-out;
+	}
+
+	@media screen and (max-width:760px){
+		font-size: 1.8rem;
+		
 	}
 `;
 

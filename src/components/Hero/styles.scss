@@ -19,9 +19,13 @@ body {
 	width: 100vw;
 	position: relative;
 	background-size: cover;
-	background-position: 100% 100%;
-	background-image:url(img3.jpg);
+	background-position: 90% 80%;
+	background-image:url(img6.jpg);
+
+
   }
+
+
   
   
 
@@ -31,8 +35,9 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(255, 255, 255, 0.322);
-	color:#494745;
+	background: rgba(59, 59, 59, 0.322);
+	color:#fff;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -44,11 +49,15 @@ body {
   
   .overlay h1 {
 	
-	
+	letter-spacing: 9px;
+	word-spacing: 3rem;
 	font-weight: 400;
 	font-size: 60px;
-	letter-spacing: 0px;
+	
+	text-transform: uppercase;
 	margin: 0 0 5px;
+	
+	// margin-bottom: 6rem;
   }
   
   .overlay p {
@@ -61,9 +70,9 @@ body {
 
 
   .button{
-	  
+	  margin-top: 5rem;
 	  font-size: 60px;
-	  color:#494745;
+	  color:#fff;
 	  pointer-events: auto;
 	cursor: pointer;
 	
@@ -86,4 +95,93 @@ body {
 
   video:focus{
 	  outline: none;
+  }
+
+
+
+  @media screen and (max-width: 760px)
+  {
+	.bg-image {
+	  
+		//height: 100vh;
+		width: 100vw;
+		position: relative;
+		background-size: cover;
+		background-position: 40% 100%;
+		background-image:url(img6.jpg);
+	
+	
+	  }
+	 
+
+    .overlay {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(59, 59, 59, 0.322);
+		color:#fff;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	  }
+	 
+	 .info{
+		 width:400px;
+	 }
+	  
+	  .overlay h1 {
+		
+		letter-spacing: 9px;
+		word-spacing: 0.25rem;
+		font-weight: 400;
+		font-size: 40px;
+		text-transform: uppercase;
+		margin: 0 0 5px;
+		// margin-bottom: 6rem;
+	  }
+	  
+	  .overlay p {
+		
+		width: 550px;
+		margin: 0;
+		font-size: 28px;
+		margin-bottom: 20px;
+	  }
+	
+	
+	  .button{
+		  margin-top: 5rem;
+		  font-size: 60px;
+		  color:#fff;
+		  pointer-events: auto;
+		cursor: pointer;
+		
+		
+		
+		
+		
+		  
+	  }
+	
+	  .video-player{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	
+		  
+	  }
+	
+	  video:focus{
+		  outline: none;
+	  }
+	
+
+
   }

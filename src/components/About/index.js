@@ -13,9 +13,9 @@ const About = () => {
     Aos.init({duration:3000});
   },[]);
 	return (
-    <div className="container">
+    <div id='about' className="container" style={{marginTop:"80px"}}>
 		
-      <div id='about' className=" about-section " >
+      <div  className=" about-section " >
         
         
 			

@@ -16,19 +16,21 @@ html {
   height: 90vh;
   
 	.container {
-		width: 1280px;
-		min-width: 1280px;
+		// width: 1280px;
+		// min-width: 1280px;
 		//margin: 9rem auto;
     .hero-inner {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 24px;
+      margin: 0 60px;
       height: 100vh;
       .hero-content {
         width: 50%;
+
+        
         .hero-content-inner {
-          width: 400px;
+          max-width: 400px;
 		  text-align: left;
           color: #323232;
           margin: 0 auto;
@@ -48,7 +50,7 @@ html {
             font-size: 14px;
             line-height: 24px;
             font-weight: 300;
-            padding-right: 48px;
+           padding-right: 48px;
             margin-bottom: 56px;
           }
           .btn-row {
@@ -132,3 +134,47 @@ html {
     }
   }
 }
+
+@media screen and (max-width: 760px){
+  .hero-inner{
+    flex-direction: column;
+    margin: 0 2px;
+  }
+
+  .hero-content {
+    width: 5%;
+ 
+
+     
+    .hero-content-inner {
+      max-width: 500px;
+  text-align: left;
+      color: #323232;
+      margin: 0 auto;
+      h1 {
+        font-weight: 500;
+        
+        margin-bottom: 24px;
+
+      }
+    }
+
+    .hero-content-line {
+      margin: 0;
+      height: 44px;
+      font-size: 20px;
+      line-height: 10;
+   
+     
+    
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-right: 48px;
+    margin-bottom: 56px;
+  }
+}
+  

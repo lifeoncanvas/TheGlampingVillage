@@ -6,8 +6,8 @@ export const ServicesPage = {
 	ContentLine:'Relieving the burden',
 	description:'Better treats serious cardiometabolic diseases to transform lives and reduce healthcare utilization through the use of digital therapeutics.',
 	imgStart:false,
-	img1:'./images/img1.jpg',
-	img2:'./images/img2.jpg'
+	img1:'./images/food3.jpg',
+	img2:'./images/food4.jpg'
 }
 
 

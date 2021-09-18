@@ -22,7 +22,12 @@ const Routes = () => {
 
 	return (
 		<BrowserRouter>
-			<Sidebar isOpen={isOpen} toggle={toggle}/>
+		<Sidebar isOpen={isOpen} toggle={toggle}/>
+		{/* { isOpen && 
+		<div>
+			<p>lorem30</p>
+		</div>
+		} */}
 			<Navbar toggle={toggle}/>
 		<Switch>
 			
