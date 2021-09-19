@@ -21,7 +21,7 @@ const Routes = () => {
 	}
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 		<Sidebar isOpen={isOpen} toggle={toggle}/>
 		{/* { isOpen && 
 		<div>
@@ -35,7 +35,7 @@ const Routes = () => {
 		   	{/* <Route path="/contact" component={Contact} />
 			<Route path="/services" component={Services} />*/}
 			
-			<Route path="/about" component={About} /> 
+			
 			<Route path="/" component={Homepage} />
 			
 		</Switch>
