@@ -20,7 +20,7 @@ function Services() {
       <div className="container">
         <div className="hero-inner">
           <div className="hero-content">
-            <div className="hero-content-inner" data-aos='fade-up'>
+            <div className="hero-content-inner" data-aos='fade-up' data-aos-delay='50'>
               <h1>
                 <div className="hero-content-line">
                   <div className="hero-content-line-inner">Relieving the burden</div>
@@ -46,7 +46,7 @@ function Services() {
               </div> */}
             </div>
           </div>
-          <div className="hero-images" data-aos='fade-right' data-aos-delay='100'>
+          <div className="hero-images" data-aos='fade-right' >
             <div   className="hero-images-inner">
               <div className="hero-image girl">
                 <img src={imgGirl} alt="girl" />
