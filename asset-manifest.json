@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/TheGlampingVillage/static/css/main.b5e1e8ed.chunk.css",
+    "main.js": "/TheGlampingVillage/static/js/main.4f90be95.chunk.js",
+    "main.js.map": "/TheGlampingVillage/static/js/main.4f90be95.chunk.js.map",
+    "runtime-main.js": "/TheGlampingVillage/static/js/runtime-main.b4f0a471.js",
+    "runtime-main.js.map": "/TheGlampingVillage/static/js/runtime-main.b4f0a471.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/TheGlampingVillage/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ec485a6e.chunk.js": "/TheGlampingVillage/static/js/2.ec485a6e.chunk.js",
+    "static/js/2.ec485a6e.chunk.js.map": "/TheGlampingVillage/static/js/2.ec485a6e.chunk.js.map",
+    "index.html": "/TheGlampingVillage/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/TheGlampingVillage/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.b5e1e8ed.chunk.css.map": "/TheGlampingVillage/static/css/main.b5e1e8ed.chunk.css.map",
+    "static/js/2.ec485a6e.chunk.js.LICENSE.txt": "/TheGlampingVillage/static/js/2.ec485a6e.chunk.js.LICENSE.txt",
+    "static/media/food3.4bfc1a87.jpg": "/TheGlampingVillage/static/media/food3.4bfc1a87.jpg",
+    "static/media/food4.dceebc00.jpg": "/TheGlampingVillage/static/media/food4.dceebc00.jpg",
+    "static/media/img1.647672e6.jpg": "/TheGlampingVillage/static/media/img1.647672e6.jpg",
+    "static/media/img1.ffc6d523.jpg": "/TheGlampingVillage/static/media/img1.ffc6d523.jpg",
+    "static/media/img2.223325ef.jpg": "/TheGlampingVillage/static/media/img2.223325ef.jpg",
+    "static/media/img2.3ec17ee5.jpg": "/TheGlampingVillage/static/media/img2.3ec17ee5.jpg",
+    "static/media/img3.52d6d07c.jpg": "/TheGlampingVillage/static/media/img3.52d6d07c.jpg",
+    "static/media/img3.6a9c4f40.jpg": "/TheGlampingVillage/static/media/img3.6a9c4f40.jpg",
+    "static/media/img3.a10263eb.jpg": "/TheGlampingVillage/static/media/img3.a10263eb.jpg",
+    "static/media/img4.3fd26938.jpg": "/TheGlampingVillage/static/media/img4.3fd26938.jpg",
+    "static/media/img4.99c16759.jpg": "/TheGlampingVillage/static/media/img4.99c16759.jpg",
+    "static/media/img5.a42279fd.jpg": "/TheGlampingVillage/static/media/img5.a42279fd.jpg",
+    "static/media/img6.0974e66c.jpg": "/TheGlampingVillage/static/media/img6.0974e66c.jpg",
+    "static/media/styles.scss": "/TheGlampingVillage/static/media/img6.aea2bf0d.jpg",
+    "static/media/t1.40eb57cf.jpg": "/TheGlampingVillage/static/media/t1.40eb57cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4f0a471.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ec485a6e.chunk.js",
+    "static/css/main.b5e1e8ed.chunk.css",
+    "static/js/main.4f90be95.chunk.js"
+  ]
+}
