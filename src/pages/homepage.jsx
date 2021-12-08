@@ -47,11 +47,11 @@ const Homepage = () => {
 			<Services  />
 			
 			
-			<Info {...ServiceObjOne} />
+// 			<Info {...ServiceObjOne} />
 			
 			
-			<Info {...ServiceObjOne2} />
-			<Info {...ServiceObjOne3}  />
+// 			<Info {...ServiceObjOne2} />
+// 			<Info {...ServiceObjOne3}  />
 		
 			<Contact/>
 		</div>
