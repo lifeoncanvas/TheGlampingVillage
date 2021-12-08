@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TheGlampingVillage/static/css/main.b5e1e8ed.chunk.css",
-    "main.js": "/TheGlampingVillage/static/js/main.4f90be95.chunk.js",
-    "main.js.map": "/TheGlampingVillage/static/js/main.4f90be95.chunk.js.map",
+    "main.js": "/TheGlampingVillage/static/js/main.ee21eef9.chunk.js",
+    "main.js.map": "/TheGlampingVillage/static/js/main.ee21eef9.chunk.js.map",
     "runtime-main.js": "/TheGlampingVillage/static/js/runtime-main.b4f0a471.js",
     "runtime-main.js.map": "/TheGlampingVillage/static/js/runtime-main.b4f0a471.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/TheGlampingVillage/static/css/2.7fc9bc2b.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.ec485a6e.chunk.js",
     "static/css/main.b5e1e8ed.chunk.css",
-    "static/js/main.4f90be95.chunk.js"
+    "static/js/main.ee21eef9.chunk.js"
   ]
 }
