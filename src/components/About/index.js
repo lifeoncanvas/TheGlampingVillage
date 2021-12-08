@@ -21,8 +21,8 @@ const About = () => {
 			
         <p >
           <span data-aos='fade-up'>He has been heir apparent as well as Duke it</span>
-          <span data-aos='fade-up' data-aos-delay='300'>  reflects a combination of intent and  activities involved.</span>
-          <span data-aos='fade-up' data-aos-delay='400'> and Duke of
+          <span data-aos='fade-up' data-aos-delay='100'>  reflects a combination of intent and  activities involved.</span>
+          <span data-aos='fade-up' data-aos-delay='200'> and Duke of
           Rothesay since 1952, and is he same time. Fundamentally,</span>
           
         </p>
